@@ -13,7 +13,7 @@ export const useAppContext = () => {
 
 export const AppContextProvider = (props) => {
 
-    const currency = process.env.NEXT_PUBLIC_CURRENCY
+    const currency = "₹"
     const router = useRouter()
 
     const { user } = useUser()
